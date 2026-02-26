@@ -1,105 +1,144 @@
-# 📘 Prottoy Quiz App – Review Guide
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Prottoy – Quiz Review Guide</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 900px;
+      margin: auto;
+      padding: 20px;
+      line-height: 1.6;
+    }
+    h1, h2, h3 {
+      color: #222;
+    }
+    .image-row {
+      display: flex;
+      gap: 10px;
+      margin: 15px 0;
+    }
+    .image-row img {
+      width: 50%;
+      border-radius: 6px;
+    }
+    .image-full {
+      width: 100%;
+      margin: 15px 0;
+      border-radius: 6px;
+    }
+    .note {
+      background: #fff3cd;
+      padding: 10px;
+      border-left: 4px solid #ffc107;
+      margin: 15px 0;
+    }
+  </style>
+</head>
+<body>
 
-This repository contains the official guide for reviewing quizzes and questions inside the Prottoy Admin Panel.
+<h1>📘 Prottoy Quiz Review Guide</h1>
+<p><strong>Last updated:</strong> February 2026</p>
 
----
-
-## 🔐 Admin Panel Access
-
-- Open the Admin Panel using the provided link  
-- Login using the credentials given to you  
-
----
-
-## 📂 Navigating to QBank
-
-1. After login, go to the **QBank tab**
-2. Select your assigned **QBank**
-3. You will see the list of all quizzes under that QBank
-
----
-
-## 📊 Quiz Status Indicators
-
-Inside the quiz list, you’ll see status indicators beside each quiz:
-
-- 🟡 **Yellow Clock** → Quiz needs to be reviewed  
-- ✅ **Green Tick** → Quiz already reviewed  
-
-<p align="center">
-  <img src="https://dummyimage.com/600x350/cccccc/000000&text=Quiz+Needs+Review" width="45%" />
-  <img src="https://dummyimage.com/600x350/cccccc/000000&text=Quiz+Reviewed" width="45%" />
+<p>
+This document explains how to review quizzes and questions inside the Prottoy Admin Panel.
+Follow each step carefully to ensure all quizzes remain accurate and high quality.
 </p>
 
----
+<h2>🔐 Admin Panel Access</h2>
+<ul>
+  <li>Open the Admin Panel using the provided link</li>
+  <li>Login using the credentials given to you</li>
+</ul>
 
-## 👁️ Reviewing Questions
+<h2>📂 Navigating to QBank</h2>
+<ol>
+  <li>After login, go to the <strong>QBank tab</strong></li>
+  <li>Select your assigned <strong>QBank</strong></li>
+  <li>You will see all quizzes under that QBank</li>
+</ol>
 
-1. Click on the **👁 Eye icon** beside a quiz  
-2. This opens the **Question Review Page**
-3. From here, review:
-   - Question text  
-   - Options  
-   - Correct answer  
-   - Explanation  
+<h2>📊 Quiz Status Indicators</h2>
+<ul>
+  <li>🟡 <strong>Yellow Clock</strong> → Quiz needs review</li>
+  <li>✅ <strong>Green Tick</strong> → Quiz already reviewed</li>
+</ul>
 
-<p align="center">
-  <img src="https://dummyimage.com/800x400/cccccc/000000&text=Question+Review+Page" width="80%" />
+<div class="image-row">
+  <img src="https://dummyimage.com/600x350/cccccc/000000&text=Needs+Review" />
+  <img src="https://dummyimage.com/600x350/cccccc/000000&text=Reviewed" />
+</div>
+
+<h2>👁️ Reviewing Questions</h2>
+<ol>
+  <li>Click the <strong>Eye (👁️) icon</strong> beside a quiz</li>
+  <li>This opens the <strong>Question Review Page</strong></li>
+  <li>Review:
+    <ul>
+      <li>Question text</li>
+      <li>Options</li>
+      <li>Correct answer</li>
+      <li>Explanation</li>
+    </ul>
+  </li>
+</ol>
+
+<img class="image-full" src="https://dummyimage.com/900x400/cccccc/000000&text=Question+Review+Page" />
+
+<h2>🏷 Assign Chapter</h2>
+<ol>
+  <li>Select the correct <strong>Chapter</strong> for each question</li>
+  <li>Click the <strong>Update</strong> button beside it</li>
+</ol>
+
+<div class="note">
+⚠️ This step is mandatory for every question.
+</div>
+
+<img class="image-full" src="https://dummyimage.com/900x400/cccccc/000000&text=Assign+Chapter+UI" />
+
+<h2>✏️ Fix Faulty Questions</h2>
+<ol>
+  <li>Click the <strong>Pen (✏️) icon</strong></li>
+  <li>You will be taken to the <strong>Modify Question Page</strong></li>
+  <li>Fix:
+    <ul>
+      <li>Question text</li>
+      <li>Options</li>
+      <li>Correct answer</li>
+      <li>Explanation</li>
+    </ul>
+  </li>
+  <li>Click <strong>Update</strong></li>
+</ol>
+
+<img class="image-full" src="https://dummyimage.com/900x400/cccccc/000000&text=Modify+Question+Page" />
+
+<h2>✅ Mark Quiz as Reviewed</h2>
+<p>
+After reviewing <strong>all questions</strong> in a quiz:
+</p>
+<ul>
+  <li>Click the <strong>“Mark as Fixed”</strong> button</li>
+</ul>
+
+<p>
+This will mark the quiz as <strong>Reviewed</strong> and change its status to ✅
 </p>
 
----
+<h2>⚠️ Important Notes</h2>
+<ul>
+  <li>Do NOT skip any question</li>
+  <li>Every question must have a chapter assigned</li>
+  <li>Double-check answers and explanations before finishing</li>
+</ul>
 
-## 🏷 Assign Chapter
-
-For each question:
-
-1. Select the correct **Chapter**
-2. Click **Update** beside it
-
-
-<p align="center">
-  <img width="1612" height="615" alt="Image" src="https://github.com/user-attachments/assets/d6bc48f0-aafc-4b2e-83af-5c6d5f2d0cdd" />
-</p>
-
----
-
-## ✏️ Fix Faulty Questions
-
-If a question is incorrect or has an issue:
-
-1. Click the **✏️ Pen icon**
-2. You will be taken to the **Modify Question Page**
-3. Fix:
-   - Question text
-   - Options
-   - Correct answer
-   - Explanation
-4. Click **Update**
-
-<p align="center">
-  <img width="1612" height="615" alt="Image" src="https://github.com/user-attachments/assets/9f3e1fb3-a230-4fa1-b06a-4f9849c48002" />
-</p>
-
----
-
-## ✅ Mark Quiz as Reviewed
-
-After reviewing **all questions** in a quiz:
-
-- Click the **“Mark as Fixed”** button
-
-This will mark the quiz as **Reviewed** and change its status to ✅
-
----
-
-## ⚠️ Important Notes
-
-- Do NOT skip any question  
-- Ensure every question has a chapter assigned  
-- Double-check explanations and correct answers before marking complete  
-
----
-
-## 🎯 Goal
-
+<h2>🎯 Goal</h2>
+<p>
 Maintain high-quality, error-free question banks for students using Prottoy.
+</p>
+
+</body>
+</html>
