@@ -11,32 +11,58 @@
       margin: auto;
       padding: 20px;
       line-height: 1.6;
-    }
-    h1, h2, h3 {
       color: #222;
     }
+
+    h1, h2, h3 {
+      margin-top: 28px;
+      margin-bottom: 10px;
+    }
+
+    p {
+      margin-bottom: 12px;
+    }
+
+    ul, ol {
+      padding-left: 22px;
+      margin-bottom: 14px;
+    }
+
+    li {
+      margin-bottom: 6px;
+    }
+
     .image-row {
       display: flex;
-      gap: 10px;
-      margin: 15px 0;
+      gap: 12px;
+      margin: 18px 0;
+      flex-wrap: wrap;
     }
+
     .image-row img {
-      width: 50%;
-      border-radius: 6px;
+      width: 100%;
+      max-width: 48%;
+      border-radius: 8px;
+      object-fit: contain;
     }
+
     .image-full {
       width: 100%;
-      margin: 15px 0;
-      border-radius: 6px;
+      margin: 18px 0;
+      border-radius: 8px;
+      object-fit: contain;
     }
+
     .note {
       background: #fff3cd;
-      padding: 10px;
+      padding: 12px;
       border-left: 4px solid #ffc107;
-      margin: 15px 0;
+      margin: 18px 0;
+      border-radius: 6px;
     }
   </style>
 </head>
+
 <body>
 
 <h1>📘 Prottoy Quiz Review Guide</h1>
@@ -67,8 +93,8 @@ Follow each step carefully to ensure all quizzes remain accurate and high qualit
 </ul>
 
 <div class="image-row">
-  <img width="1612" height="615" alt="Image" src="https://github.com/user-attachments/assets/47797e23-2bca-4332-b350-4fed437dd5f3" />
-  <img width="1238" height="516" alt="Image" src="https://github.com/user-attachments/assets/56100b90-e9c7-4516-9392-e7eb0202b81d" />
+  <img src="https://github.com/user-attachments/assets/47797e23-2bca-4332-b350-4fed437dd5f3" />
+  <img src="https://github.com/user-attachments/assets/56100b90-e9c7-4516-9392-e7eb0202b81d" />
 </div>
 
 <h2>👁️ Reviewing Questions</h2>
@@ -85,7 +111,7 @@ Follow each step carefully to ensure all quizzes remain accurate and high qualit
   </li>
 </ol>
 
-<img width="1612" height="615" alt="Image" src="https://github.com/user-attachments/assets/7e902781-432d-42cc-b82a-8c8fa1ffdb55" />
+<img class="image-full" src="https://github.com/user-attachments/assets/7e902781-432d-42cc-b82a-8c8fa1ffdb55" />
 
 <h2>🏷 Assign Chapter</h2>
 <ol>
@@ -93,7 +119,7 @@ Follow each step carefully to ensure all quizzes remain accurate and high qualit
   <li>Click the <strong>Update</strong> button beside it</li>
 </ol>
 
-<img width="1238" height="516" alt="Image" src="https://github.com/user-attachments/assets/3a2b1494-f559-4c7b-83ed-744b8969d3be" />
+<img class="image-full" src="https://github.com/user-attachments/assets/3a2b1494-f559-4c7b-83ed-744b8969d3be" />
 
 <h2>✏️ Fix Faulty Questions</h2>
 <ol>
@@ -110,19 +136,15 @@ Follow each step carefully to ensure all quizzes remain accurate and high qualit
   <li>Click <strong>Update</strong></li>
 </ol>
 
-<img width="1824" height="766" alt="Image" src="https://github.com/user-attachments/assets/c85d155e-f9d0-4f7d-9465-2a17fd23574d" />
+<img class="image-full" src="https://github.com/user-attachments/assets/c85d155e-f9d0-4f7d-9465-2a17fd23574d" />
 
 <h2>✅ Mark Quiz as Reviewed</h2>
-<p>
-After reviewing <strong>all questions</strong> in a quiz:
-</p>
+<p>After reviewing <strong>all questions</strong> in a quiz:</p>
 <ul>
   <li>Click the <strong>“Mark as Fixed”</strong> button</li>
 </ul>
 
-<p>
-This will mark the quiz as <strong>Reviewed</strong> and change its status to ✅
-</p>
+<p>This will mark the quiz as <strong>Reviewed</strong> and change its status to ✅</p>
 
 <h2>⚠️ Important Notes</h2>
 <ul>
