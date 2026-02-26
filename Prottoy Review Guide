@@ -1,0 +1,104 @@
+# 📘 Prottoy Quiz App – Review Guide
+
+This repository contains the official guide for reviewing quizzes and questions inside the Prottoy Admin Panel.
+
+---
+
+## 🔐 Admin Panel Access
+
+- Open the Admin Panel using the provided link  
+- Login using the credentials given to you  
+
+---
+
+## 📂 Navigating to QBank
+
+1. After login, go to the **QBank tab**
+2. Select your assigned **QBank**
+3. You will see the list of all quizzes under that QBank
+
+---
+
+## 📊 Quiz Status Indicators
+
+Inside the quiz list, you’ll see status indicators beside each quiz:
+
+- 🟡 **Yellow Clock** → Quiz needs to be reviewed  
+- ✅ **Green Tick** → Quiz already reviewed  
+
+<p align="center">
+  <img src="https://dummyimage.com/600x350/cccccc/000000&text=Quiz+Needs+Review" width="45%" />
+  <img src="https://dummyimage.com/600x350/cccccc/000000&text=Quiz+Reviewed" width="45%" />
+</p>
+
+---
+
+## 👁️ Reviewing Questions
+
+1. Click on the **👁 Eye icon** beside a quiz  
+2. This opens the **Question Review Page**
+3. From here, review:
+   - Question text  
+   - Options  
+   - Correct answer  
+   - Explanation  
+
+<p align="center">
+  <img src="https://dummyimage.com/800x400/cccccc/000000&text=Question+Review+Page" width="80%" />
+</p>
+
+---
+
+## 🏷 Assign Chapter
+
+For each question:
+
+1. Select the correct **Chapter**
+2. Click **Update** beside it
+
+<p align="center">
+  <img src="https://dummyimage.com/800x400/cccccc/000000&text=Assign+Chapter+UI" width="80%" />
+</p>
+
+---
+
+## ✏️ Fix Faulty Questions
+
+If a question is incorrect or has an issue:
+
+1. Click the **✏️ Pen icon**
+2. You will be taken to the **Modify Question Page**
+3. Fix:
+   - Question text
+   - Options
+   - Correct answer
+   - Explanation
+4. Click **Update**
+
+<p align="center">
+  <img src="https://dummyimage.com/800x400/cccccc/000000&text=Modify+Question+Page" width="80%" />
+</p>
+
+---
+
+## ✅ Mark Quiz as Reviewed
+
+After reviewing **all questions** in a quiz:
+
+- Click the **“Mark as Fixed”** button
+
+This will mark the quiz as **Reviewed** and change its status to ✅
+
+---
+
+## ⚠️ Important Notes
+
+- Do NOT skip any question  
+- Ensure every question has a chapter assigned  
+- Double-check explanations and correct answers before marking complete  
+
+---
+
+## 🎯 Goal
+
+Maintain high-quality, error-free question banks for students using Prottoy.
