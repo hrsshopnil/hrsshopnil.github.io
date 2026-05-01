@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support | Prottoy App</title>
+    <style>
+        :root {
+            --primary: #4A49A3;
+            --error: #EF4770;
+            --success: #11B486;
+            --warning: #febc2e;
+            --bg: #f8f9fa;
+        }
+
+        body { 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+            background-color: var(--bg); 
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            min-height: 100vh; 
+            margin: 0; 
+            padding: 20px;
+        }
+
+        .container { 
+            background: white; 
+            padding: 2rem; 
+            border-radius: 16px; 
+            box-shadow: 0 10px 25px rgba(0,0,0,0.05); 
+            text-align: center; 
+            max-width: 450px; 
+            width: 100%; 
+        }
+
+        h1 { color: var(--primary); margin-bottom: 8px; font-size: 1.8rem; }
+        p { color: #666; margin-bottom: 24px; font-size: 0.95rem; }
+
+        /* Form Styling */
+        form { text-align: left; margin-bottom: 24px; }
+        label { display: block; margin-bottom: 6px; font-weight: 600; color: #444; font-size: 0.85rem; }
+        input, textarea { 
+            width: 100%; 
+            padding: 12px; 
+            margin-bottom: 16px; 
+            border: 1.5px solid #eee; 
+            border-radius: 8px; 
+            box-sizing: border-box;
+            outline: none;
+            transition: border-color 0.3s;
+        }
+        input:focus, textarea:focus { border-color: var(--primary); }
+        
+        .submit-btn { 
+            background-color: var(--primary); 
+            color: white; 
+            border: none; 
+            width: 100%; 
+            padding: 14px; 
+            border-radius: 8px; 
+            font-weight: bold; 
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+        .submit-btn:active { transform: scale(0.98); }
+
+        .divider { height: 1px; background: #eee; margin: 24px 0; position: relative; }
+        .divider::after { content: "OR"; position: absolute; top: -10px; left: 50%; transform: translateX(-50%); background: white; padding: 0 10px; color: #999; font-size: 0.7rem; }
+
+        /* Social Buttons */
+        .social-links { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+        .btn { 
+            text-decoration: none; 
+            padding: 10px; 
+            border-radius: 8px; 
+            font-size: 0.85rem; 
+            font-weight: 600; 
+            color: white; 
+            transition: opacity 0.2s;
+        }
+        .whatsapp { background-color: var(--success); }
+        .facebook { background-color: #1877f2; }
+        .btn:hover { opacity: 0.9; }
+
+        /* Success Message Hint */
+        .hint { color: var(--success); font-size: 0.8rem; margin-top: 10px; display: none; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Prottoy Support</h1>
+    <p>Send us a message and we'll get back to you.</p>
+
+    <form action="https://formspree.io/f/prottoyqbankapp@gmail.com" method="POST">
+        <label>Your Email</label>
+        <input type="email" name="email" placeholder="name@example.com" required>
+        
+        <label>Message</label>
+        <textarea name="message" rows="4" placeholder="How can we help?" required></textarea>
+        
+        <button type="submit" class="submit-btn">Send Message</button>
+    </form>
+
+    <div class="divider"></div>
+
+    <div class="social-links">
+        <a href="https://wa.me/8801996672691" class="btn whatsapp">WhatsApp</a>
+        <a href="https://www.facebook.com/profile.php?id=61588033762073" target="_blank" class="btn facebook">Facebook</a>
+    </div>
+</div>
+
+</body>
+</html>
