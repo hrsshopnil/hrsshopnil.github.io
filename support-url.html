@@ -78,13 +78,13 @@
             font-weight: 600; 
             color: white; 
             transition: opacity 0.2s;
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
         .whatsapp { background-color: var(--success); }
         .facebook { background-color: #1877f2; }
         .btn:hover { opacity: 0.9; }
-
-        /* Success Message Hint */
-        .hint { color: var(--success); font-size: 0.8rem; margin-top: 10px; display: none; }
     </style>
 </head>
 <body>
@@ -93,12 +93,13 @@
     <h1>Prottoy Support</h1>
     <p>Send us a message and we'll get back to you.</p>
 
-    <form action="https://formspree.io/f/prottoyqbankapp@gmail.com" method="POST">
-        <label>Your Email</label>
-        <input type="email" name="email" placeholder="name@example.com" required>
-        <form action="https://formspree.io/f/mwvykgbq" method="POST">
-        <label>Message</label>
-        <textarea name="message" rows="4" placeholder="How can we help?" required></textarea>
+    <!-- FIXED FORM: Removed nested tags and fixed the action URL -->
+    <form action="https://formspree.io/f/mwvykgbq" method="POST">
+        <label for="email">Your Email</label>
+        <input type="email" id="email" name="email" placeholder="name@example.com" required>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="4" placeholder="How can we help?" required></textarea>
         
         <button type="submit" class="submit-btn">Send Message</button>
     </form>
